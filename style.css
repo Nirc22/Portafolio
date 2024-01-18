@@ -1,6 +1,26 @@
-/* h1{
-    color:blanchedalmond;
-} */
+#navbar{
+    color: white;
+    
+    color: brown;
+}
+
+#info{
+    text-align: center;
+    color: white;
+}
+#contact{
+    color: white;
+}
+
 body{
-    color:red;
+    /* background-image: url(Nicolas.jpeg); */
+    background-color: black;
+    
+}
+
+img{
+    border-radius: 50%;
+}
+div{
+    text-align: center;
 }
