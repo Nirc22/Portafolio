@@ -1,7 +1,7 @@
 #iconos{
     /* filter: invert(98%) sepia(0%) saturate(2928%) hue-rotate(229deg) brightness(110%) contrast(65%); */
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     /* z-index: -100; */
 }
 
@@ -64,16 +64,31 @@ button{
 
 #info{
     padding-top: 100px;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-bottom: #D3D3D3 2px solid;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    border-bottom: #D3D3D3 1px dashed;
+}
+
+#parrafo{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    /* width: 50%; */
+    /* margin: 0 auto; */
+}
+
+p{
+    color: white;
+    /* margin-left: 100px; */
+    /* width: 60%; */
+    /* text-align: center; */
 }
 
 #habilidades{
     /* margin-left: 20%;
     margin-right: 20%; */
     /* border-style: dashed; */
-    border-bottom: #D3D3D3 2px dashed;
+    border-bottom: #D3D3D3 1px dashed;
 }
 
 #contacto{
@@ -106,5 +121,5 @@ div{
 .card{
     margin-bottom: 20px;  
     background-color: #0F0F0F;
-    z-index: -2;
+    /* z-index: -1; */
 }
