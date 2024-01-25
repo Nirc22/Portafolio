@@ -18,6 +18,7 @@
 <body>
   <header id="header">
     <nav class="navbar navbar-expand-md navbar-light">
+      <!-- navbar-expand-md navbar-light -->
       <div class="container-fluid">
         <button class="navbar-toggler ms-auto bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,11 +26,11 @@
         </button>
         <div class="collapse navbar-collapse" id="menu">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item"><a class="nav-link " href="">Sobre mi</a></li>
+            <li class="nav-item"><a class="nav-link " href="#info">Sobre mi</a></li>
             <!-- <a class="nav-link active" href=""></a> -->
-            <li class="nav-item"><a class="nav-link" href="">Contáctame</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Habilidades</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Proyectos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contáctame</a></li>
+            <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+            <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
           </ul>
         </div>
       </div>
@@ -43,48 +44,61 @@
     </p>
   </div>
   <div id="contacto">
+    <h1>Contáctame</h1>
     <a>Contáctame a través de</a><br>
     <a id="contact" class="bi bi-linkedin" href="https://www.linkedin.com/in/nicolas-rodriguez-camacho/"
       target="_blank"></a>
     <a id="contact" class="bi bi-github" href="https://github.com/Nirc22?tab=repositories" target="_blank"></a>
-    <a id="contact" class="bi bi-file-earmark-arrow-down" href="CV.pdf" download="CV" target="_blank"></a>
+    <a id="contact" class="bi bi-file-earmark-arrow-down" href="CV-Nicolas.pdf" download="CV" target="_blank"></a>
   </div>
   <div id="habilidades">
     <h1>Habilidades</h1>
     <h2>Lenguajes de programación</h2>
-    <a>
-      <img id="iconos" src="img/java.png" alt="">
-      Java</a>
-    <a>
+    <span>
+      <img id="iconos" src="img/java.png">
+      Java</span>
+    <span>
       <img id="iconos" src="img/html.png" alt="">
-      HTML</a>
-    <a>
+      HTML</span>
+    <span>
       <img id="iconos" src="img/css.png" alt="">
-      CSS</a>
-    <a>
+      CSS</span>
+    <span>
       <img id="iconos" src="img/javascript.png" alt="">
-      JavaScript</a>
+      JavaScript</span>
     <h2>Frameworks</h2>
-    <a>
+    <span>
       <img id="iconos" src="img/node-js.png" alt="">
-      Node.Js</a>
-    <a>
+      Node.Js</span>
+    <span>
       <img id="iconos" src="img/spring-boot.png" alt="">
-      Spring Boot</a>
-    <a>
+      Spring Boot</span>
+
+    <span>
       <img id="iconos" src="img/angular.png" />
       Angular
-    </a>
+    </span>
   </div>
 
   <div id="proyectos">
     <h1>Proyectos</h1>
-    <p>Acá irán los proyectos que he desarrollado</p>
-    <p>Acá irán los proyectos que he desarrollado</p>
-    <p>Acá irán los proyectos que he desarrollado</p>
-    <p>Acá irán los proyectos que he desarrollado</p>
-    <p>Acá irán los proyectos que he desarrollado</p>
-    <p>Acá irán los proyectos que he desarrollado</p>
+    <div class="card mx-auto" style="width: 20rem;">
+      <img src="img/angular.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Frontend Veterinaria</h5>
+        <p class="card-text">Realizado en Angular</p>
+        <a href="https://github.com/Nirc22/PruebaSemilleroFront" class="bi bi-github" target="_blank"></a>
+      </div>
+    </div>
+
+    <div class="card mx-auto" style="width: 20rem;">
+      <img src="img/spring-boot.png" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Backend Veterinaria</h5>
+        <p class="card-text">Realizado en Spring Boot</p>
+        <a href="https://github.com/Nirc22/PruebaSemilleroBack" class="bi bi-github" target="_blank"></a>
+      </div>
+    </div>
   </div>
   <script src="portafolio.js"></script>
 
