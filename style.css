@@ -1,7 +1,7 @@
 #iconos{
     filter: invert(98%) sepia(0%) saturate(2928%) hue-rotate(229deg) brightness(110%) contrast(65%);
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 
 
@@ -65,9 +65,25 @@ button{
 
 #info{
     padding-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: #D3D3D3 2px solid;
 }
+
+#habilidades{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: #D3D3D3 2px solid;
+}
+
+#contacto{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: #D3D3D3 2px solid;
+}
+
 #contact{
-    color: white;
+    color: #D3D3D3;
 }
 
 body{
@@ -82,9 +98,4 @@ body{
 }
 div{
     text-align: center;
-}
-
-p{
-    /* align-items: center; */
-    width: 50%;
 }
