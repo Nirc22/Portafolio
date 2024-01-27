@@ -91,6 +91,7 @@ p {
 }
 
 #icono {
+    /* width: 50%; */
     display: grid;
     grid-template-columns:
         repeat(auto-fit,
@@ -116,7 +117,7 @@ p {
 
 #contact {
     color: #D3D3D3;
-    font-size: 37px;
+    font-size: 40px;
     /* background-color: black; */
 }
 
