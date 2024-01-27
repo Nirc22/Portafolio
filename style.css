@@ -72,7 +72,7 @@ button {
     padding-top: 100px;
     /* margin-left: 20%;
     margin-right: 20%; */
-    border-bottom: #D3D3D3 1px dashed;
+    border-bottom: #D3D3D3 1px solid;
 }
 
 #parrafo {
@@ -91,11 +91,11 @@ p {
 }
 
 #icono {
-    /* width: 50%; */
+    /* min-width: 600   px; */
     display: grid;
     grid-template-columns:
         repeat(auto-fit,
-            minmax(150px, 1fr));
+            minmax(85px, 1fr));
     gap: 10 px;
 
 }
@@ -105,14 +105,14 @@ p {
     margin-right: 20%; */
     /* border-style: dashed; */
 
-    border-bottom: #D3D3D3 1px dashed;
+    border-bottom: #D3D3D3 1px solid;
 }
 
 #contacto {
     /* margin-left: 20%;
     margin-right: 20%; */
     /* background-color: red; */
-    border-bottom: #D3D3D3 1px dashed;
+    border-bottom: #D3D3D3 1px solid;
 }
 
 #contact {
@@ -140,4 +140,31 @@ div {
     margin-bottom: 20px;
     background-color: #0F0F0F;
     /* z-index: -1; */
+}
+
+
+
+@media (min-width:650px){
+    #icono{
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    #parrafo{
+        margin: 0 auto;
+        width: 60%;
+    }
+}
+
+@media(min-width:900px){
+    #icono{
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    #parrafo{
+        margin: 0 auto;
+        width: 40%;
+    }
+
 }
