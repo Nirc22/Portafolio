@@ -58,7 +58,7 @@ nav ul li a {
 
 a.active,
 a:hover {
-    background: #333333;
+    background: #454545;
     /* text-color: #D3D3D3; */
     color: #D3D3D3;
     transition: 0.5s;
@@ -69,7 +69,8 @@ button {
 }
 
 #info {
-    padding-top: 100px;
+    padding-top: 150px;
+    padding-bottom: 50px;
     /* margin-left: 20%;
     margin-right: 20%; */
     border-bottom: #D3D3D3 1px solid;
@@ -104,6 +105,8 @@ p {
     /* margin-left: 20%;
     margin-right: 20%; */
     /* border-style: dashed; */
+    padding-top: 50px;
+    padding-bottom: 50px;
 
     border-bottom: #D3D3D3 1px solid;
 }
@@ -112,6 +115,8 @@ p {
     /* margin-left: 20%;
     margin-right: 20%; */
     /* background-color: red; */
+    padding-top: 50px;
+    padding-bottom: 50px;
     border-bottom: #D3D3D3 1px solid;
 }
 
@@ -120,11 +125,29 @@ p {
     font-size: 40px;
     /* background-color: black; */
 }
+#contact:hover{
+    padding: 5px;
+    background-color: #0F0F0F;
+    font-size: 30px;
+    color: #454545;
+    transition: 0.5s; 
+}   
+
+#git-proyect{
+    color: #D3D3D3;
+    font-size: 40px;
+}
+
+#git-proyect:hover{
+    background-color: #0F0F0F;
+    color: #454545;
+    transition: 0.5s;
+}
 
 body {
     /* background-image: url(Nicolas.jpeg) no-repeat; */
     background-color: #0F0F0F;
-    color: white;
+    color: #D3D3D3;
 
 }
 
@@ -142,6 +165,24 @@ div {
     /* z-index: -1; */
 }
 
+#proyectos{
+    padding-top: 50px;
+}
+
+#proyecto{
+    padding-top: 30px;
+}
+
+#proyect-img{
+    width: 80%;
+}
+
+h1{
+    color: #888888;
+    
+}
+
+
 
 
 @media (min-width:650px){
@@ -154,6 +195,12 @@ div {
         margin: 0 auto;
         width: 60%;
     }
+
+    #proyecto{
+        margin: 0 auto;
+        width: 40%;
+    }
+
 }
 
 @media(min-width:900px){
@@ -163,6 +210,11 @@ div {
     }
 
     #parrafo{
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    #proyecto{
         margin: 0 auto;
         width: 40%;
     }
