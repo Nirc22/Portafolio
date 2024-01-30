@@ -148,6 +148,7 @@ body {
     /* background-image: url(Nicolas.jpeg) no-repeat; */
     background-color: #0F0F0F;
     color: #D3D3D3;
+    /* font-style: Roboto; */
 
 }
 
@@ -166,6 +167,7 @@ div {
 }
 
 #proyectos{
+    padding-bottom: 50px;
     padding-top: 50px;
 }
 
