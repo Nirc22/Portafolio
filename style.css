@@ -1,10 +1,7 @@
 #iconos {
-    /* filter: invert(98%) sepia(0%) saturate(2928%) hue-rotate(229deg) brightness(110%) contrast(65%); */
     width: 100px;
     height: 100px;
-    /* z-index: -100; */
 }
-
 
 header {
     position: fixed;
@@ -13,13 +10,7 @@ header {
     background-color: #0F0F0F;
 }
 
-/* #habilidades{
-    background-color: black;
-} */
-
 nav {
-    /* position: fixed; */
-    /* background: blue; */
     color: #D3D3D3;
     height: 100px;
     width: 100%;
@@ -28,18 +19,13 @@ nav {
 nav ul {
     text-align: center;
     background-color: #0F0F0F;
-    /* float: right; */
-    /* margin-right: 20px; */
 }
 
 nav ul li {
-    /* background-color: red; */
     display: inline-block;
     line-height: 30px;
     margin: 0 5px;
     padding: 5px;
-
-    /* border-radius: 5px; */
 }
 
 nav ul li a {
@@ -48,18 +34,12 @@ nav ul li a {
     padding: 7px 13px;
     border-radius: 3px;
     background-color: #D3D3D3;
-    /* display: flex;
-    justify-content: center; */
-
-    /* opacity: 0.7; */
-    /* text-transform: uppercase; */
     text-decoration: none;
 }
 
 a.active,
 a:hover {
     background: #454545;
-    /* text-color: #D3D3D3; */
     color: #D3D3D3;
     transition: 0.5s;
 }
@@ -71,28 +51,18 @@ button {
 #info {
     padding-top: 100px;
     padding-bottom: 50px;
-    /* margin-left: 20%;
-    margin-right: 20%; */
-    /* border-bottom: #D3D3D3 1px solid;     */
 }
 
 #parrafo {
-    /* background-color: red; */
     display: flex;
     justify-content: center;
-    /* width: 50%; */
-    /* margin: 0 auto; */
 }
 
 p {
     color: white;
-    /* margin-left: 100px; */
-    /* width: 60%; */
-    /* text-align: center; */
 }
 
 #icono {
-    /* min-width: 600   px; */
     display: grid;
     grid-template-columns:
         repeat(auto-fit,
@@ -102,29 +72,20 @@ p {
 }
 
 #habilidades {
-    /* margin-left: 20%;
-    margin-right: 20%; */
-    /* border-style: dashed; */
     padding-top: 50px;
     padding-bottom: 50px;
-
-    /* border-bottom: #D3D3D3 1px solid; */
 }
 
 #contacto {
-    /* margin-left: 20%;
-    margin-right: 20%; */
-    /* background-color: red; */
     padding-top: 50px;
     padding-bottom: 50px;
-    /* border-bottom: #D3D3D3 1px solid; */
 }
 
 #contact {
     color: #D3D3D3;
     font-size: 40px;
-    /* background-color: black; */
 }
+
 #contact:hover{
     padding: 5px;
     background-color: #0F0F0F;
@@ -136,6 +97,7 @@ p {
 #git-proyect{
     color: #D3D3D3;
     font-size: 40px;
+    margin: 10px;
 }
 
 #git-proyect:hover{
@@ -145,11 +107,8 @@ p {
 }
 
 body {
-    /* background-image: url(Nicolas.jpeg) no-repeat; */
     background-color: #0F0F0F;
     color: #D3D3D3;
-    /* font-style: Roboto; */
-
 }
 
 #nico {
@@ -163,7 +122,6 @@ div {
 .card {
     margin-bottom: 20px;
     background-color: #0F0F0F;
-    /* z-index: -1; */
 }
 
 #proyectos{
